@@ -1,0 +1,523 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.section-one .bg-box {
+    height: 632px;
+    background:url(../img/byway1.png) no-repeat;
+    background-position: center 40%;
+}
+
+.section-one .main-header-wrapper {
+    background-color: #0c0f16;
+    height:100px;
+}
+
+.section-one .main-header-wrapper .wrapper {
+    width: 1100px;
+    height:100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #e3e3e3;
+    font-size: 14px;
+}
+.section-one .main-header-wrapper .main-left {
+    height: 40px;
+    line-height: 40px;
+}
+
+
+.section-one .main-header-wrapper .main-title {
+    margin: 0 50px;
+    width: 538px;
+    height: 40px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.section-one .main-header-wrapper .main-title .title-box{
+    position: relative;
+}
+
+
+.section-one .main-header-wrapper .main-title .title-box .title-span {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.section-one .main-header-wrapper .main-title .title-box .icon-arrow-up {
+    position: absolute;
+    width:20px;
+    height: 20px;
+    margin-left: 2px;
+	background: url(../img/arrt.png) no-repeat center left;
+    vertical-align: middle;
+}
+
+
+.section-one .main-header-wrapper .main-title .title-box .title-ul{
+    position: absolute;
+    margin-top: 40px;
+    width: 120px;
+    background-color:#0c0f16 ;
+    left: -20px;
+}
+
+.title-box:hover .title-ul {
+    position: absolute;
+    display: block;
+    top: 10px;
+}
+
+.section-one .main-header-wrapper .main-title .title-box .title-ul li {
+    display:block;
+	font-size: 12px;
+	padding:10px 12px;
+	color:#fff;
+	white-space: nowrap;
+}
+
+
+.title-box:hover .icon-arrow-up {
+    transform: rotate(180deg);
+    transition: 0.2s all;
+}
+.title-box:hover .title-ul{
+    display: block !important;
+}
+.section-one .main-header-wrapper .main-right{
+    /* width: 200px; */
+    display: flex;
+    align-items: center;
+    height:40px;
+}
+
+.section-one .main-header-wrapper .main-right .input_inner {
+    width:200px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: #10141e;
+}
+
+.section-one .main-header-wrapper .main-right .input-group-append{
+    position: relative;
+}
+
+
+.section-one .main-header-wrapper .main-right img {
+    position: absolute;
+    margin-left: 8px;
+    width: 20px;
+    height: 20px;
+}
+
+.section-one .home-carousel img{
+   width: 100%;
+   height: 532px;
+}
+
+.section-one .section-one-bottom {
+    height: 90px;
+    background-color: #0c0f16;
+}
+.section-one .btm-wrapper{
+    width: 1100px;
+    margin: 0 auto;
+    height: 90px;
+    background-color: #0c0f16;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff
+}
+
+.section-one .section-one-bottom .bottom-content {
+    width:170px;
+    min-width: 166px;
+    overflow: hidden;
+    position: relative;
+}
+
+.section-one .section-one-bottom .bottom-content .title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section-one .section-one-bottom .bottom-content .des {
+    margin-top: 6px;
+    font-size:14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.section-one .section-one-bottom .line {
+    width: 1px;
+    height: 30px;
+    background: #fff;
+    margin: 0 30px;
+}
+
+/*section-two模块样式*/
+
+.section-two {
+    background-image: url(../img/background1.png);
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-two .hosImg {
+    width: 40%;
+    margin: 0 auto;
+
+}
+
+.section-two .hosImg img {
+    width:100%;
+    left: 0;
+    margin-top: 10%;
+}
+.section-two .hosCont {
+    width:45%;
+    margin: auto 0;
+    margin-right: 0;
+    color: #fff;
+}
+
+.section-two .hosCont .title {
+    font-size: 32px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.section-two .hosCont .subtitle {
+    font-size: 12px;
+    font-family: PingFang SC;
+    font-weight: 200;
+    line-height: 24px;
+}
+
+.section-two .hosCont .contain {
+    margin:65px 0;
+    font-size: 12px;
+    font-family: PingFang SC;
+    font-weight: 200;
+    line-height: 24px;
+}
+
+.section-two .hosCont .link {
+    text-decoration: none;
+    display: inline-block;
+    width: 118px;
+    height: 34px;
+    border: 1px solid #4ed1d7;
+    opacity: 1;
+    border-radius: 22px;
+    /* line-height: 20px; */
+    color: #4ed1d7;
+    display: flex;
+    justify-content: center;
+}
+
+.section-two .hosCont .link .link-inner {
+    height: 34px;
+    line-height: 34px;
+    font-size: 12px;
+    font-family: PingFang SC;
+    font-weight: 500;
+}
+
+.section-two .hosCont .link img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    padding-top: 8px;
+    margin-left: 5px;
+}
+
+/*section-three模块样式*/
+
+.section-three {
+    background: url(../img/background2.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 0 15%;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.section-three .resourseList {
+    width: 60%;
+    display: inline-block;
+    margin: auto 0;
+    list-style: none;
+    font-size: 12px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+.section-three .resourseList .resBg {
+    width: 0px;
+    height: 36px;
+    background-color: #4ed1d7;
+    transition: width 1s;
+    border-radius: 5px;
+} 
+
+.section-three .resourseList .resBg:hover {
+    width: 500px;
+}
+
+/* @keyframes mymove {
+    0% {width: 0px;background-color: #4ed1d7;}
+    100% {width: 500px; background-color: #4ed1d7;} 
+}  */
+
+
+
+
+.section-three .resourseList li{
+    width: fit-content;
+    height: 24px;
+    margin: 6px 0;
+    padding: 6px 10px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+
+
+.section-three .resourseList li .resLine {
+    display: inline-block;
+    width: 20px;
+    height: 1px;
+    background-color: #fff;
+}
+
+.section-three .resourseList li .resDes {
+    display: inline-block;
+}
+
+.section-three .resourseCont {
+    position: relative;
+    width: 40%;
+    margin: auto 0;
+}
+
+.section-three .resourseCont .resImg {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    top:-230px;
+}
+.section-three .resourseCont .title {
+    font-size: 32px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.section-three .resourseCont .subtitle,
+.section-three .resourseCont .contain{
+    font-size: 12px;
+    font-family: PingFang SC;
+    font-weight: 200;
+    line-height: 24px;
+}
+
+.section-three .resourseCont .contain {
+    margin: 65px 0;
+}
+
+.section-three .resourseCont .link {
+    text-decoration: none;
+    display: inline-block;
+    width: 118px;
+    height: 34px;
+    border: 1px solid #4ed1d7;
+    opacity: 1;
+    border-radius: 22px;
+    /* line-height: 20px; */
+    color: #4ed1d7;
+    display: flex;
+    justify-content: center;
+}
+
+.section-three .resourseCont .link .link-inner {
+    height: 34px;
+    line-height: 34px;
+    font-size: 12px;
+    font-family: PingFang SC;
+    font-weight: 500;
+}
+
+.section-three .resourseCont img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    padding-top: 8px;
+    margin-left: 5px;
+}
+
+/*section-four样式模块*/
+.section-four {
+    padding: 2% 15%;
+    background-image: url(../img/background3.png);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-four .newCont {
+    margin: auto 0;
+    color: #fff;
+    font-family: PingFang SC;
+}
+
+.section-four .newCont .title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.section-four .newCont .subtitle {
+    font-size: 12px;
+    font-weight: 10;
+    line-height: 24px;
+}
+
+.section-four .newCont .contain {
+    margin: 62px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-four .newCont .contain .oneNews {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+}
+.section-four .newCont .contain .oneNews .logo {
+    width: 5%;
+    position: absolute;
+    padding-top: 18px;
+    padding-left: 12px;
+    z-index: 999;
+}
+
+.section-four .newCont .contain .oneNews .backImg {
+    opacity: 0.5;
+}
+
+.section-four .newCont .contain .oneNews .message {
+    background-color: #fff;
+    padding: 10px 16px 16px 16px;
+    font-family: PingFang SC;
+    color: #333;
+}
+
+.section-four .newCont .contain .oneNews .message .msgTitle {
+    min-height: 48px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.section-four .newCont .contain .oneNews .message .msgCont {
+    margin: 6px 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/*section-five模块样式*/
+.section-five {
+    position: relative;
+    padding: 2% 15%;
+    background-image: url(../img/background4.png);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-five .message {
+    width: 20%;
+    margin-right: 6%;
+    font-family: PingFang SC;
+}
+
+.section-five .message img {
+    width: 80%;
+}
+
+.section-five .message .title {
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+
+}
+
+.section-five .message .list {
+    color: #999999;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.section-five .menuList {
+    width: 46%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-five .menuList .menuItem  .title{
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.section-five .menuList .menuItem .list {
+    color: #999;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.section-five .code {
+    width: 12%;
+    margin-left: 2%;
+}
+
+.section-five .code img {
+    width: 100%
+}
+
+.section-five .copyright {
+    position: absolute;
+    margin-top: 10%;
+    bottom: 20px;
+    left: 38%;
+    color:#ddd;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 20px;
+}

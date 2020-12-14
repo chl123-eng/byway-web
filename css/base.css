@@ -1,0 +1,20 @@
+.section-one{
+    height: 722px;
+    background-color: gray;
+}
+.section-two{
+    height: 722px;
+    background-color: green;
+}
+.section-three{
+    height: 722px;
+    background-color: red;
+}
+.section-four{
+    height: 722px;
+    background-color: yellow;
+}
+.section-five{
+    height: 240px;
+    background-color: blue;
+}
